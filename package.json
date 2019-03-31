@@ -1,0 +1,33 @@
+{
+  "name": "@behaver/astrolable-house-calculator",
+  "version": "1.0.0",
+  "description": "This pkg is builded for astrolable house calculating.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behaver/astrolable-house-calculator.git"
+  },
+  "keywords": [
+    "astrolable"
+  ],
+  "author": "Sanwan, Dong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/behaver/astrolable-house-calculator/issues"
+  },
+  "homepage": "https://github.com/behaver/astrolable-house-calculator#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  },
+  "dependencies": {
+    "@behaver/jdate": "^2.3.2",
+    "@behaver/solar-star-coordinate": "^1.0.7"
+  },
+  "files": [
+    "src"
+  ]
+}
